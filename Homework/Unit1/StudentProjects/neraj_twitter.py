@@ -5,7 +5,8 @@ from requests_oauthlib import OAuth1
 import pandas as pd
 
 #replace with your own personal twitter API keys
-auth = OAuth1()
+auth = OAuth1('NOZHm1aLT1AVmchGbCmiZOAga', 'nPyaYCt8L7ymqGZtU8EqC0a2ypI9aSJgVNIhtoZ0wGsaf3BJw9',
+                '1079981876864008192-AlhO4yOa06oW2sXZpLpWPwnOxEERYS', 'o3E0AsKJfDoTBk77UQYExzOG7E46jPYvpWNGAKsD6lUBY')
 
 #API endpoint and search string for functions find_user, get_followers
 user_base_url = 'https://api.twitter.com/1.1/users/lookup.json'
