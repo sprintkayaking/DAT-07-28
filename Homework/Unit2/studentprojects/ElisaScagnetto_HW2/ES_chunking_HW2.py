@@ -4,7 +4,7 @@
 # In[4]:
 
 
-file_path='C:\\Users\\escag\\es_repo280720\\Homework\\Unit2\\data\\taxi.csv'
+file_path='https://dat-data.s3.amazonaws.com/taxi.csv'
 
 
 # In[5]:
@@ -79,8 +79,8 @@ dict2
 # In[10]:
 
 
-filepathread='C:\\Users\\escag\\es_repo280720\\Homework\\Unit2\\data\\taxi.csv'
-filepathwrite='C:\\Users\\escag\\es_repo280720\\Homework\\Unit2\\data\\taxi_new4.csv'
+filepathread=r'C:\Users\Jonat\Downloads\taxi (1).csv'
+filepathwrite=r'C:\Users\Jonat\Downloads\taxi_new.csv'
 
 
 # In[11]:
